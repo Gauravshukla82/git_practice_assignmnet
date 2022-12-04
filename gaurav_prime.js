@@ -1,5 +1,5 @@
-factor=0;
-Num=17;
+let factor=0;
+let Num=17;
 for(i=1;i<=Num;i++)
 {
 	if(Num%i==0)
@@ -7,7 +7,7 @@ for(i=1;i<=Num;i++)
 		factor++;
 	}
 }
-if(factor==5)
+if(factor==2)
 {
 	console.log("It is a prime number")
 }
